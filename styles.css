@@ -1,0 +1,61 @@
+
+/* Sets the font style and size of the whole project */
+* {
+    font-family: verdana, sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    width: 700px;
+    /* to horizontally center the element used 'auto' attribute */
+    margin: 20px auto;
+    background: #DEF2F1;
+    border: 1px solid #888;
+    padding-bottom: 20px;
+}
+
+html {
+    background: #fff
+}
+
+img {
+    border: 1px solid black;
+    margin-right: 15px;
+    -moz-box-shadow: 2px 2px 2px #888;
+    -webkit-box-shadow: 2px 2px 2px #888;
+    box-shadow: 2px 2px 2px #888;
+}
+
+li a:hover,
+.button:hover {
+    color: green;
+}
+
+.appname {
+    text-align: center;
+    background: #DEF2F1;
+    color: #659DBD;    
+    font-family: helvetica;
+    font-size: 20pt;
+    padding: 4px;
+}
+
+.fieldname {
+    float: left;
+    width: 120px;
+}
+
+.main {
+    margin-left: 40px;
+}
+
+.info {
+    background: lightgreen;
+    color: blue;
+    border: 1px solid green;
+    padding: 5px 10px;
+    margin-left: 40px;
+}
+
+
+
